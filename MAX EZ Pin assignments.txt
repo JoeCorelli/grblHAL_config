@@ -1,0 +1,155 @@
+Motor-1	
+    STEP	PC13
+	DIR		PC14
+	EN		PE6
+	CS/UART	PG14
+Motor-2	
+    STEP	PE4
+	DIR		PE5
+	EN		PE3
+	CS/UART	PG13
+Motor-3	
+    STEP	PE1
+	DIR		PE0
+	EN		PE2
+	CS/UART	PG12
+Motor-4	
+    STEP	PB8
+	DIR		PB9
+	EN		PB7
+	CS/UART	PG11
+Motor-5	
+	STEP	PB5
+	DIR		PB4
+	EN		PB6
+	CS/UART	PG10
+Motor-6	
+	STEP	PG15
+	DIR		PB3
+	EN		PD5
+	CS/UART	PG9
+Motor-7	
+	STEP	PD3
+	DIR		PD2
+	EN		PD4
+	CS/UART	PD7
+Motor-8	
+	STEP	PA10
+	DIR	PA9
+	EN	PA15
+	CS/UART	PD6
+Motor-9	
+	STEP	PA8
+	DIR	PC7
+	EN	PC9
+	CS/UART	PG8
+Motor-10	
+	STEP	PG6
+	DIR	PC6
+	EN	PC8
+	CS/UART	PG7
+TMC SPI (spi4)
+	MISO	PE13
+	MOSI	PE14
+	SCK		PE12
+Heater	
+	E0		PF6
+	E1		PA0
+	E2		PF9
+	E3		PF7
+	HB		PF5
+Temperature	
+    TH0		PB0
+	TH1		PC5
+	TH2		PC4
+	TH3		PA7
+	THB		PB1
+Endstop	
+    M1-STOP	PF0
+	M2-STOP	PF2
+	M3-STOP	PF4
+	M4-DET	PF3
+	M5-DET	PF1
+	M6-DET	PC15
+2 wire FAN	
+    FAN0	PA6
+	FAN1	PA5
+	FAN2	PA4
+	FAN3	PA3
+4 wire FAN4	
+    control	    PA1
+	tachometer	PC3
+4 wire FAN5	
+    control	    PF8
+	tachometer	PC1
+4 wire FAN6	
+    control 	PA2
+	tachometer	PC2
+Misc	
+    RGB1		PE10
+	RGB2		PE9
+	PS-ON		PF13
+	PWRDET		PF12
+	OnBoard LED	PA14
+BLTouch	
+    SERVOS	PB14
+	PROBE	PB15
+Proximity switch	
+    PROBE	PF11
+FWS(hall_filament_width_sensor)
+	adc1	PC0
+	adc2	PF10
+Onboard EEPROM(24C32)	
+    SCL2	PB10
+	SDA2	PB11
+FDCAN1	
+	RX	PD0
+	TX	PD1
+TFT UART3	
+    RX	PD9
+	TX	PD8
+		
+USB-Device	
+    OTG_FS_DM	PA11
+	OTG_FS_DP	PA12
+		
+LCD-FPC(EXP1 + EXP2)	
+    5V	5V
+	GND	GND
+	LCD_D7		PE15
+	LCD_D6		PD10
+	LCD_D5		PD11
+	LCD_D4		PD12
+	LCD_RS		PD13
+	LCD_EN		PD14
+	BTN_ENC		PD15
+	BEEPER		PG2
+	RESET		RESET
+	SD_DETECT	PG3
+	MOSI		PE14
+	BTN_EN2		PG4
+	SD_SS		PE11
+	BTN_EN1		PG5
+	SCK			PE12
+	MISO		PE13
+OnboardSD(spi4)	
+	SD-CS	PB12
+	SD-DET	PB13
+	MISO	PE13
+	MOSI	PE14
+	SCK		PE12
+Expansion SPI pin header(spi4)	
+	SPI4-CS	PF14
+	MISO	PE13
+	MOSI	PE14
+	SCK		PE12
+WIFI(ESP3D/RRF)	
+	ESP-RST(espResetPin)		PB2
+	ESP-IO0(espDataReadyPin)	PG0
+	ESP-IO4(TfrReadyPin)		PF15
+	ESP-RX(UART7)				PE7
+	ESP-TX(UART7)				PE8
+	ESP-CS						PG1
+	ESP-MOSI-SPI3				PC12
+	ESP-MISO-SPI3				PC11
+	ESP-CLK-SPI3				PC10
