@@ -1,0 +1,1 @@
+{"driver":"STM32H7xx","URL":"https://github.com/dresco/STM32H7xx","board":"BOARD_BTT_OCTOPUS_MAX","symbols":["USE_HAL_DRIVER","BLOCK_BUFFER_DYNAMIC","STM32H723xx","HSE_VALUE=25000000","USB_SERIAL_CDC=1","TRINAMIC_ENABLE=5160","TRINAMIC_SPI_ENABLE=2","EEPROM_ENABLE=3","ESTOP_ENABLE=1"],"docker_instance":"","grblHAL":"webBuilder"}
